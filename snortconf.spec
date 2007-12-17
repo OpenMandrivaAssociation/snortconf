@@ -10,7 +10,6 @@ URL:		http://www.xjack.org/snortconf
 Requires:	snort
 Requires:	ncurses
 BuildRequires:	ncurses-devel
-BuildRoot:	%{_tmppath}/%{name}-root
 
 %description
 SnortConf is a simple, intuitive menu based tool that provides a
