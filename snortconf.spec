@@ -1,7 +1,7 @@
 Summary:	A tool to ease configuring the OpenSource IDS tool Snort
 Name:		snortconf
 Version:	0.4.2
-Release:	%mkrel 0.BETA.4
+Release:	%mkrel 0.BETA.5
 License:	GPL
 Group:		System/Servers
 Source0:	%{name}-%{version}.tar.bz2
