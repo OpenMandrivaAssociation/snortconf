@@ -1,0 +1,24 @@
+diff -Naur snortconf-0.4.2/conf/sc.conf snortconf-0.4.2.oden/conf/sc.conf
+--- snortconf-0.4.2/conf/sc.conf	2002-11-19 13:36:17.000000000 +0100
++++ snortconf-0.4.2.oden/conf/sc.conf	2003-04-23 23:43:00.000000000 +0200
+@@ -7,7 +7,7 @@
+ snort_rules=/etc/snort/rules/*.rules
+ 
+ # where is the system snort.conf file located.
+-snort_conf=/etc/snort/snort.conf.sc
++snort_conf=/etc/snort/snort.conf
+ 
+ # where is the main snort config directory (ie: where is classification.config).
+ # note: NO TRAILING / in directory specification!!!
+diff -Naur snortconf-0.4.2/config.h.in snortconf-0.4.2.oden/config.h.in
+--- snortconf-0.4.2/config.h.in	2002-11-19 13:34:03.000000000 +0100
++++ snortconf-0.4.2.oden/config.h.in	2003-04-23 23:43:45.000000000 +0200
+@@ -2,7 +2,7 @@
+ /* and hand-modified a bit by A.L.Lambert <alambert@manisec.com> :)	   */
+ 
+ /* TODO: hack up configure.in to define these via --option= command line switches */
+-#define SNORT_CONFIG_FILE       "/etc/snort/snort.conf.sc"
++#define SNORT_CONFIG_FILE       "/etc/snort/snort.conf"
+ #define SNORT_CONFIG_DIR        "/etc/snort/"
+ #define SNORT_RULES_FILES       "/etc/snort/rules/*.rules"
+ #define SNORT_LOG_DIR           "/var/log/snort"
