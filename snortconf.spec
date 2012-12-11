@@ -47,3 +47,30 @@ install -m644 conf/sc.conf %{buildroot}%{_sysconfdir}/%{name}/sc.conf
 %config(noreplace) %attr(0644,root,root) %{_sysconfdir}/%{name}/sc.conf
 %attr(0755,root,root) %{_bindir}/%{name}
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.4.2-0.BETA.5mdv2010.0
++ Revision: 433984
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.4.2-0.BETA.4mdv2008.1
++ Revision: 140829
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import snortconf
+
+
+* Fri Jul 14 2006 Oden Eriksson <oeriksson@mandriva.com> 0.4.2-0.BETA.4mdv2007.0
+- rebuild
+
+* Fri Jun 03 2005 Oden Eriksson <oeriksson@mandriva.com> 0.4.2-0.BETA.3mdk
+- rebuild
+
+* Sun May 16 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 0.4.2-0.BETA.2mdk
+- use macros
+
+* Wed Apr 23 2003 Oden Eriksson <oden.eriksson@kvikkjokk.net> 0.4.2-0.BETA.1mdk
+- initial cooker contrib
