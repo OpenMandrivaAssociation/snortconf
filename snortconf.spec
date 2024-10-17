@@ -6,7 +6,7 @@ License:	GPL
 Group:		System/Servers
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		snortconf-0.4.2-config.patch
-URL:		http://www.xjack.org/snortconf
+URL:		https://www.xjack.org/snortconf
 Requires:	snort
 Requires:	ncurses
 BuildRequires:	ncurses-devel
