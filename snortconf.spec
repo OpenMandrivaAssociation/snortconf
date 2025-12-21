@@ -9,6 +9,11 @@ Patch0:		snortconf-0.4.2-config.patch
 URL:		https://www.xjack.org/snortconf
 Requires:	snort
 Requires:	ncurses
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ncurses-devel
 BuildRoot:	%{_tmppath}/%{name}-root
 
